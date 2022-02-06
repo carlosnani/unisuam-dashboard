@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Dashboard / Turmas / 202A</title>
+  <link rel="icon" type="image/png" href="img/favicon.png" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+</head>
+
+<body>  
+    <header>
+      <div class="container-fluid herder">
+        <div class="container">                    
+            <div class="user">
+              <div class="user-info">
+                <img src="img/avatar_perfil.png" alt="avatar" title="avatar"> 
+                <div>
+                  <p class="t-grey">Mrs. Ian Bernhard </p>
+                  <p class="t-greymed">Professor</p>
+                </div>
+              </div>
+              <a href="#" >
+                <i class="bi-power" style="font-size: 1.8rem; color: hsl(0, 0%, 100%);"></i>
+              </a>
+            </div>          
+        </div>        
+      </div>
+    </header>
+
+    <main>
+
+    <section class="container main-content">
+      <aside>
+        <div>
+          <img src="img/unisuam_logo.png" alt="unisuam_logo">
+          <i class="bi bi-list menuburger" style="font-size: 1.6rem; color: #263137;"></i>          
+        </div>
+        <nav>
+          <ul>
+            <li><i class="bi bi-calendar3" style="font-size: 1.3rem; color: #263137;"></i><a href="#">Calendário</a></li>
+            <li><i class="bi bi-card-text" style="font-size: 1.3rem; color: #263137;"></i><a href="#">Cronograma</a></li>
+            <li><i class="bi-people-fill" style="font-size: 1.3rem; color: #263137;"></i><a href="#">Turmas</a></li>
+            <li><i class="bi bi-chat-fill" style="font-size: 1.3rem; color: #263137;"></i><a href="#">Mensagens</a><span class="pill">42</span></li>
+            <li><i class="bi bi-bell-fill" style="font-size: 1.3rem; color: #263137;"></i><a href="#">Notificações</a></li>
+            <li><i class="bi bi-gear-fill" style="font-size: 1.3rem; color: #263137;"></i><a href="#"> Configurações</a></li>
+          </ul> 
+        </nav>
+      </aside>
+
+      <!-- Start Content -->
+
+      <div class="content">
+      
+        <form>
+          <input type="text" class="t-grey" placeholder="Busca por matrícula, email, nome" />
+          <button class="btn-search">
+            <i class="bi bi-search" style="font-size: 1.3rem; color: #fdfeff;"></i>
+          </button>
+        </form>
+
+        <div class="breadcrumbs">
+          <a href="#">Dashboard / Turmas / 202A</a> 
+        </div>
+
+        <div class="filters">
+          <span></span>
+          <p class="t-greymed">Nome <i class="bi bi-chevron-down" style="font-size: 0.9rem; color: #BDC3C7;"></i></p>        
+          <p class="t-greymed">Matrícula <i class="bi bi-chevron-down" style="font-size: 0.9rem; color: #BDC3C7;"></i></p>
+          <p class="t-greymed menor1300">Frequência <i class="bi bi-chevron-down" style="font-size: 0.9rem; color: #BDC3C7;"></i></p>
+          <p class="t-greymed">Notas <i class="bi bi-chevron-down" style="font-size: 0.9rem; color: #BDC3C7;"></i></p>
+          <p class="t-greymed">Status <i class="bi bi-chevron-down" style="font-size: 0.9rem; color: #BDC3C7;"></i></p>       
+          <span></span>
+          <span></span>
+        </div>
+
+        <!--Cards-->
+
+        <div class="cards" id="cards">
+
+          <!-- <div class="card" >
+            <img src="img/aluno-00.png" alt="aluno">
+
+            <a href="aluno.html">Jill Quitzon</a>
+
+            <a href="aluno.html" class="t-secondary">
+              7682775911
+            </a>
+
+            <div class="frequencia">
+              <p class=" ">100%</p> 
+              <div class="frequencia-bar">
+                <div class="frequencia-porcent"></div>
+              </div>
+            </div>
+
+            <p class="t-greymed">
+              PI - 8,8 | PII - 9,5 | PIII - 9,5 | PIV - 9,5
+            </p>
+
+            <span class="pill-danger">
+              Reprovado
+            </span>
+
+            <a href="aluno.html" class="btn">Alterar Nota</a>            
+          </div>       
+           -->
+          
+          <!--End Card-->                            
+        </div>
+        
+
+
+      </div>
+      <!-- End Content -->
+    </section>
+    </main>
+
+  <footer class="container-fluid">
+      <div class="container">
+        <p class="t-greylight">Copyright Unisuam | 2022</p>
+      </div>
+  </footer>
+
+  <script src="js/app.js" type="module"></script>
+
+</body>
+
+</html>
